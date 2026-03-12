@@ -1,1 +1,6 @@
 Curso de git e github - Udemy Matheus Battisti
+
+*Para clonar projeto*
+git clone
+cd e o nome da pasta
+code . (abre no vscode) 
