@@ -4,3 +4,201 @@ Curso de git e github - Udemy Matheus Battisti
 git clone
 cd e o nome da pasta
 code . (abre no vscode) 
+
+# 📘 Guia Essencial de Comandos Git
+
+Este documento reúne os principais comandos do Git para uso no dia a dia de desenvolvimento.
+
+---
+
+## 🔧 Configuração Inicial
+
+```bash
+git config --global user.name "Seu Nome"
+git config --global user.email "seuemail@email.com"
+```
+
+Ver configurações:
+
+```bash
+git config --list
+```
+
+---
+
+## 📁 Criando e Clonando Repositórios
+
+Inicializar um repositório:
+
+```bash
+git init
+```
+
+Clonar um repositório:
+
+```bash
+git clone <url-do-repositorio>
+```
+
+---
+
+## 📌 Controle de Versão Básico
+
+Ver status dos arquivos:
+
+```bash
+git status
+```
+
+Adicionar arquivos para commit:
+
+```bash
+git add .
+```
+
+Adicionar arquivo específico:
+
+```bash
+git add nome-do-arquivo
+```
+
+Criar um commit:
+
+```bash
+git commit -m "mensagem do commit"
+```
+
+---
+
+## 🔄 Trabalhando com Branches
+
+Listar branches:
+
+```bash
+git branch
+```
+
+Criar nova branch:
+
+```bash
+git branch nome-da-branch
+```
+
+Trocar de branch:
+
+```bash
+git checkout nome-da-branch
+```
+
+Criar e trocar ao mesmo tempo:
+
+```bash
+git checkout -b nome-da-branch
+```
+
+---
+
+## 🔀 Merge e Rebase
+
+Fazer merge:
+
+```bash
+git merge nome-da-branch
+```
+
+Rebase:
+
+```bash
+git rebase nome-da-branch
+```
+
+---
+
+## 🌐 Trabalhando com Repositório Remoto
+
+Ver repositórios remotos:
+
+```bash
+git remote -v
+```
+
+Adicionar repositório remoto:
+
+```bash
+git remote add origin <url>
+```
+
+Enviar alterações (push):
+
+```bash
+git push origin nome-da-branch
+```
+
+Atualizar repositório local:
+
+```bash
+git pull origin nome-da-branch
+```
+
+---
+
+## 🧹 Desfazendo Alterações
+
+Desfazer alterações antes do commit:
+
+```bash
+git checkout -- nome-do-arquivo
+```
+
+Remover arquivo do stage:
+
+```bash
+git reset nome-do-arquivo
+```
+
+Voltar para commit anterior:
+
+```bash
+git reset --hard HEAD~1
+```
+
+---
+
+## 🔍 Histórico
+
+Ver histórico de commits:
+
+```bash
+git log
+```
+
+Versão resumida:
+
+```bash
+git log --oneline
+```
+
+---
+
+## 🚀 Dicas Rápidas
+
+* Sempre escreva mensagens de commit claras
+* Use branches para novas funcionalidades
+* Atualize seu repositório frequentemente (git pull)
+* Evite trabalhar direto na branch main
+
+---
+
+## 💡 Fluxo Básico
+
+```bash
+git pull
+git checkout -b minha-feature
+git add .
+git commit -m "feat: minha feature"
+git push origin minha-feature
+```
+
+---
+
+Se quiser, posso adaptar esse guia para nível iniciante, avançado ou focado em DevOps 🚀
