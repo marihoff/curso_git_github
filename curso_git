@@ -1,9 +1,49 @@
 Curso de git e github - Udemy Matheus Battisti
 
 *Para clonar projeto*
+No bash
 git clone
 cd e o nome da pasta
 code . (abre no vscode) 
+
+*Criando repositórios*
+No bash
+git init
+git status
+
+*Enviar repositório para o github*
+cd "nome da pasta"
+git init
+git status
+git add "nome do arquivo"
+git commit -m "nome da mudança"
+git status para conferir
+
+*Criar branch master* 
+git branch -M master
+git remote add origin " URL origem da pasta"
+git push -u origin master
+
+*Verificar as modificações do projeto*
+git status depois das modificações
+git add .
+git commit -a -m "descrever a alteração"
+git status
+"Se quiser enviar um arquivo de vez, git commit "nome do arquivo" -m "Descrever alteração" 
+
+*Enviando o código para o repositório*
+git push
+
+*Recebendo alterações*
+Sincronizar local com repositório remoto
+git pull
+
+*clonando repositórios*
+
+
+
+
+
 
 # 📘 Guia Essencial de Comandos Git
 
