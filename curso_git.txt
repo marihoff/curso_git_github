@@ -82,8 +82,53 @@ cria um novo arquivo com .gitignore, e dentro vai citar o nome dos arquivos que 
 git reset --hard "nome ex: origin/master" 
 
 
+**Trabalhando com branches"" Ramificações do código fonte
 
+"""""Criando a visualização das branches""""""
+git branch
 
+git branch <nome> para criar uma nova branch
+
+"Deletando branches" 
+-d ou --delete
+
+"Mudando de branch" 
+git checkout -b "nome da branch" 
+
+"Unindo branches" 
+git merge "nome da branch" 
+
+"Utilizando a stash" 
+Podemos salvar as modicações atuais para prosseguir com uma outra abordagem de solução e não perder o código, basicamente joga no lixo depois recupera
+git stash
+
+"Recuperando stach" 
+Podemos verificar as stashs criadas pelo comando git stash list
+E também podemos recuperar a stash com o comando git stash <nome>
+
+"Removendo a stash" 
+git stash clear 
+Remove todas as stashes que foram criadas
+
+git stash drop <nome>
+Caso seja necessário, deleta uma stash específica
+
+"""Criar Tags """"
+Criar tags nos branches por meio dos comandos (Servem como um checkpoint de uma branch" 
+Demarca estágios do desenvolvimento de algum recurso
+git tag -a <nome> -m <"mensagem">
+
+"Alterando tags "
+Para verificar uma tag
+git show <nome>
+
+Troca de tags com o comando
+git checkout <nome>
+
+"Enviar tags para o repositório" 
+git push origin <nome>
+Ou se quiser enviar mais tags
+git push origin --tags
 
 
 
