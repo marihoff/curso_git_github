@@ -162,3 +162,20 @@ git reflog
 Cria o arquivo através do repositório para usar sem internet
 git archive --format zip --output master_files.zip master
 
+"""""""""Na aba issues"""""""""
+Criar tarefas ou possíveis bugs
+
+"""""""""Na aba actions""""""""
+automatizações de deploy
+
+"""""""""Na aba projects""""""""
+Podemos criar um projeto e utilizar um quadro de tarefas, Kanban
+
+"""""""""Na aba wiki""""""""
+Documentação mais extensa para o projeto
+
+"""""""""Na aba insights""""""""
+Informações detalhadas do projeto
+
+
+
