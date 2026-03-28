@@ -68,6 +68,18 @@ e depois para atualizar e usar de novo: git pull
 git log (No terminal dentro do vs code)
 
 *Renomeando arquivos*
+git mv "nome do arquivo errado" "escreve nome do arquivo certo"
+
+"Desfazendo alterações"
+git checkout "nome do arquivo que não quer mais" 
+
+"Ignorando arquivos e diretórios em um projeto" 
+algum arquivo com dado sensível que não pode estar no github junto com os outros
+.gitignore 
+cria um novo arquivo com .gitignore, e dentro vai citar o nome dos arquivos que não devem subir para o git
+
+"Resetando a branch" 
+git reset --hard "nome ex: origin/master" 
 
 
 
