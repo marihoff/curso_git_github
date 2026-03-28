@@ -1,5 +1,19 @@
 Curso de git e github - Udemy Matheus Battisti
 
+git init - cria um novo repositório local no diretório atual
+git clone - copia o repositório remoto existente para a sua máquina local
+git status - mostra o estado do seu diretório de trabalho e da área de staging
+git add - Adiciona alterações do seu diretório de trabalho a área de staging, que é uma área temporária onde você pode preparar seu próximo commit
+git commit - registra as alterações da área de staging como um novo snapshot no repositório local, junto com uma mensagem descrevendo as mudanças
+git push - Envia as alterações locais para o repositório remoto
+git pull - baixa os commits mais recentes de um repositório remoto e os mescla com a sua branch local
+git branch - lista, cria, renomeia ou exclui branches no seu repositório local. Uma branch é um porteiro para um commit específico
+git checkout - muda seu diretório de trabalho para outra branch ou commit, descartando qualquer alterações não commitadas
+git merge - combina as alterações de uma branch em outra branch, criando um novo commit se não houver conflitos
+git diff - mostra as diferenças entre dois commits, branches, arquivos ou entre o diretório de trabalho e a área de staging
+git log - mostra histório de commits da branch atual, junto com as suas mensagens autores e datas.  
+
+
 *Para clonar projeto*
 No bash
 git clone
