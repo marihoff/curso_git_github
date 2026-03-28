@@ -130,7 +130,35 @@ git push origin <nome>
 Ou se quiser enviar mais tags
 git push origin --tags
 
+""Encontrando as branches""
+git fetch
 
+"Recebendo atualizações das alterações"
+git pull
 
+"Exibindo detalhes de branches e tags" 
+git show
 
+"Diferenças entre branches""
+git diff 
+
+""Log resumido""
+git shortlog
+Vê panorama geral de informações do projeto todo
+
+""Limpando os arquivos que nao precisam""
+git clean
+
+""Limpa arquivos que julga nao serem necessários para o projeto""
+git gc
+
+""Verificando a integridade dos arquivos" Seria um comando de rotina
+git fsck
+
+""Reflog, vai mapear todos os passos que foram dados no repositório""
+git reflog
+
+""Transformando o repo para arquivo"" 
+Cria o arquivo através do repositório para usar sem internet
+git archive --format zip --output master_files.zip master
 
