@@ -1,7 +1,3 @@
-Aqui está seu conteúdo organizado em formato de **README.md para GitHub**, mantendo **todas as informações iguais**, só estruturadas 👇
-
----
-
 # 📘 Curso de Git e GitHub - Udemy (Matheus Battisti)
 
 ## 📌 Comandos básicos
