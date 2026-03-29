@@ -177,5 +177,28 @@ Documentação mais extensa para o projeto
 """""""""Na aba insights""""""""
 Informações detalhadas do projeto
 
+UTILIZANDO MARKDOWN readme
+Estilos para textos
+
+"Criando títulos" 
+Para os cabeçalhos de markdown, headings
+# = h1
+## = h2
+### = h3
+e assim por diante
+
+"Enfase nos textos" 
+**texto** ou __text__ (textos em negritos)
+*texto* ou _text_ (em itálico)
+
+""Listas com markdown""
+Lista não ordenadas começam com " * 1 item
+Listas ordenadas começam com: 1. item
+
+""Inserir imagens""
+![Text Alt](link imagem)
+
+""Inserir links""
+[Texto do link](link)
 
 
